@@ -1,0 +1,191 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.thumbnail {
+    max-width: 6rem;
+    height: fit-content;
+    max-height: 6rem;
+    margin-right: 1rem;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.width-100p {
+    width: 100%;
+}
+
+.height-100p {
+    height: 100%;
+}
+
+.hidden {
+	display: none;
+}
+
+.fnt-small {
+    font-size: .8rem;
+}
+
+.fnt-normal {
+    font-size: .9rem;
+}
+
+.fnt-title {
+    font-size: 1.125rem;
+}
+
+.fnt-header {
+    font-size: 2.5rem;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.fnt-bold {
+    font-weight: bold;
+}
+
+.clr-red {
+    color: rgb(239, 59, 45);
+}
+
+.clr-white {
+    color: white;
+}
+
+.clr-gray-100 {
+    color: rgb(113, 128, 150);
+}
+
+.clr-black {
+    color: black;
+}
+
+.bg-red-100 {
+    background-color: rgb(228, 78, 67);
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-gray-100 {
+    background-color: rgb(247, 250, 252);
+}
+
+.block {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.center-h {
+    justify-content: center;
+}
+
+.center-v {
+    align-items: center;
+}
+
+.width-33p {
+    width: 33%;
+}
+
+.width-15r {
+    width: 15rem;
+}
+
+.width-30r {
+    width: 30rem;
+}
+
+.margin-t-1r {
+    margin-top: 1rem;
+}
+
+.margin-t-b-p4r {
+    margin-top: .4rem;
+    margin-bottom: .4rem;
+}
+
+.margin-l-1r {
+    margin-left: 1rem;
+}
+
+.margin-b-p25r {
+    margin-bottom: .25rem;
+}
+
+.padding-p5r {
+    padding: .5rem;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.shadow {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+}
+
+.radius-p5 {
+    border-radius: .5rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+.hvr-underline:hover {
+    text-decoration: underline;
+}
+
+.mrgn-0-auto {
+    margin: 0 auto;
+}
+
+.no-resize {
+    resize: none;
+}
+
+.linebreaks {
+    white-space: pre-line;
+}
